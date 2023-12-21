@@ -7,17 +7,15 @@ This ROS 2 package comprises two nodes, `TransformPublisher` and `TransformSubsc
 
 your_package/
 |-- src/
-| |-- transform_publisher.cpp
-| |-- transform_subscriber.cpp
+| |-- publisher_member_function.cpp
+| |-- subscriber_member_function.cpp
 |-- CMakeLists.txt
 |-- package.xml
 
-markdown
-
 
 - **src/**: Contains the source files.
-  - **transform_publisher.cpp**: Implements the transform publisher node.
-  - **transform_subscriber.cpp**: Implements the transform subscriber node.
+  - **publisher_member_function.cpp**: Implements the transform publisher node.
+  - **subscriber_member_function.cpp**: Implements the transform subscriber node.
 - **CMakeLists.txt**: CMake file for configuring the build of the ROS 2 package.
 - **package.xml**: Provides metadata and dependencies of the package.
 
@@ -36,3 +34,4 @@ markdown
 4. **Verify Operation**: Check the output in the subscriber node's terminal to confirm it is correctly receiving and logging the transform data published by the publisher node.
 
 This package is a practical example for understanding ROS 2's approach to handling and communicating transformation data, suitable for applications in robotics and simulations.
+Note: Mock data is used. Please take care of any dependencies that may occur in your system.
